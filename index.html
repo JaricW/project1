@@ -3,13 +3,20 @@
 <link rel="stylesheet" href="styles.css">
 
 <div class="totalPage">
-
-<div class="form">
-  <form action="">
-    <input type="text" placeholder="Type here">
-    <button type="submit">Reverse</button>
-  </form>
+    <p>
+        <label for="s">Input</label>
+        <input type = "text" id = "s" size = "25">
+    </p>
+    <p id = "t"></p>
+    <input type = "button" id = "r" value = "Reverse"
+           onclick="document.getElementById('t').innerHTML = document.getElementById('s').value.reverse();">
 </div>
+</html>
 
-  
-</div>
+
+
+    <script>
+        String.prototype.reverse=function(){
+            return this.split("").reverse().join("");
+        }
+    </script>
