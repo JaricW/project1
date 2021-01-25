@@ -16,6 +16,6 @@ background: linear-gradient(140deg, #D23724, #9A3B7E);
 .form {
     display: flex;
     height: 100vh;
-    justify-conent: center;
+    justify-content: center;
     align-items: center;
 }
