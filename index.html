@@ -6,9 +6,10 @@
 <div class="totalPage">
 <div class="form">
 <label for="s">Input</label>
-<input type = "text" id = "string" size = "25">
+<input type = "text" id = "s" size = "25">
+ <p id = "t"></p>
     <input type = "button" id = "r" value = "Reverse"
-    onclick="getElementById('string').value.reverse();">
+    onclick="document.getElementById('t').innerHTML = document.getElementById('s').value.reverse();">
     
     
 </div>
@@ -16,10 +17,8 @@
 </html>
 
 <script>
-Reverse it(){
+String.prototype.reverse=function(){
 return this.split("").reverse().join("");
 }
 </script>
-
-
 
