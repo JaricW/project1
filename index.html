@@ -3,20 +3,22 @@
 <link rel="stylesheet" href="styles.css">
 
 <div class="totalPage">
-    <p>
-        <label for="s">Input</label>
-        <input type = "text" id = "s" size = "25">
+<div class="form">
+<label for="s">Input</label>
+<input type = "text" id = "s" size = "25">
     </p>
     <p id = "t"></p>
     <input type = "button" id = "r" value = "Reverse"
            onclick="document.getElementById('t').innerHTML = document.getElementById('s').value.reverse();">
+    
+</div>
 </div>
 </html>
 
 
 
-    <script>
-        String.prototype.reverse=function(){
-            return this.split("").reverse().join("");
-        }
-    </script>
+<script>
+String.prototype.reverse=function(){
+return this.split("").reverse().join("");
+}
+</script>
