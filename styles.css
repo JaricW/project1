@@ -37,6 +37,10 @@ h2 {
     padding: 10vh;
 }
 
+p {
+   text-decoration: none;
+}
+
 .totalPage {
     height: 100vh;
     width: 100%;
