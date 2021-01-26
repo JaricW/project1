@@ -7,10 +7,16 @@ html,body
     overflow-x: hidden; 
 }
 
+h2 {
+    background: rgb(0 216 9 / 60%);
+    border: 5px solid;
+    padding: 2em;
+}
+
 .totalPage {
-height: 100vh;
-width: 100%;
-background: linear-gradient(140deg, #D23724, #9A3B7E);
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(140deg, #D23724, #9A3B7E);
 }
 
 .form {
