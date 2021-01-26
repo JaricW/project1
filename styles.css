@@ -15,14 +15,15 @@ background: linear-gradient(140deg, #D23724, #9A3B7E);
 
 .form {
     display: flex;
-    height: 100vh;
+    height: 50vh;
     justify-content: center;
     align-items: center;
 }
 
 .result {
     display: flex;
-    height: 100vh;
+    height: 50vh;
     flex-direction: column;
     justify-content: center;
+    align-items:center;
 }
