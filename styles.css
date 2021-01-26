@@ -7,6 +7,14 @@ html,body
     overflow-x: hidden; 
 }
 
+.home {
+    display: flex;
+    position: fixed;
+    padding: 1em 1em 1em 1em;
+    background: rgb(20 27 232 / 10%);
+    border-radius: 0 0 3em 0;
+}
+
 .explain {
     height: 30vh;
     display: flex;
