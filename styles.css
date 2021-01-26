@@ -11,7 +11,7 @@ h1 {
     display: flex;
     justify-content: center;
     padding: 10%;
-
+    margin: 0;
 }
 
 h2 {
