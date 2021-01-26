@@ -35,6 +35,8 @@ h2 {
 #s {
     height: 10vh;
     width: 50vw;
+    text-align: center;
+    font-size: 6vh;
 }
 
 .result {
