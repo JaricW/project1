@@ -19,3 +19,10 @@ background: linear-gradient(140deg, #D23724, #9A3B7E);
     justify-content: center;
     align-items: center;
 }
+
+.result {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+}
