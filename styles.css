@@ -7,10 +7,17 @@ html,body
     overflow-x: hidden; 
 }
 
+h1 {
+    display: flex;
+    justify-content: center;
+    padding: 10%;
+
+}
+
 h2 {
     background: rgb(0 216 9 / 60%);
     border: 5px solid;
-    padding: 2em;
+    padding: 10%
 }
 
 .totalPage {
@@ -21,15 +28,13 @@ h2 {
 
 .form {
     display: flex;
-    height: 50vh;
     justify-content: center;
-    align-items: center;
+    padding: 10%;
 }
 
 .result {
     display: flex;
-    height: 50vh;
     flex-direction: column;
-    justify-content: center;
     align-items:center;
 }
+
