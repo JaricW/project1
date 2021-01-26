@@ -32,6 +32,11 @@ h2 {
     padding: 10vh;
 }
 
+#s {
+    height: 10vh;
+    width: 50vw;
+}
+
 .result {
     display: flex;
     flex-direction: column;
