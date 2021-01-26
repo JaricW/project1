@@ -7,15 +7,14 @@ html,body
     overflow-x: hidden; 
 }
 
-h1 {
-    height: 20vh;
+.explain {
+    height: 30vh;
     display: flex;
     justify-content: center;
-    padding: 10vh 0 0 0;
-    margin: 0;
-    font-size: 3em;
+    font-size: 2em;
     font-weight: bold;
     text-align: center;
+    align-items: center;
 }
 
 h2 {
@@ -31,7 +30,7 @@ h2 {
 }
 
 .form {
-    padding: 5vw 0 0 0;
+
     display: flex;
     justify-content: center;
 }
@@ -48,6 +47,6 @@ h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 5vh 0 0 0;
+    padding: 10vh 0 0 0;
 }
 
