@@ -1,71 +1,77 @@
-html,body
-{
-    width: 100%;
-    height: 100vh;
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden; 
-}
-
-.home {
-    display: flex;
-    position: fixed;
-    padding: 1em 1em 1em 1em;
-    background: rgb(20 27 232 / 10%);
-    border-radius: 0 0 3em 0;
-}
-
-.explain {
-    height: 30vh;
-    display: flex;
-    justify-content: center;
-    font-size: 2em;
-    font-weight: bold;
-    text-align: center;
-    align-items: center;
-}
-
 h1 {
-    background: rgb(212 122 11 / 20%);
-    border-radius: 1em;
-    padding: 0.2em
+    font-family: helvetica;
 }
 
-h2 {
-    background: rgb(0 216 9 / 60%);
-    border: 5px solid;
-    padding: 10vh;
+p {
+    font-family: helvetica;
 }
 
-a {
-   text-decoration: none;
-   color: black;
-}
-
-.totalPage {
+body {
+    width:100%;
     height: 100vh;
-    width: 100%;
-    background: linear-gradient(140deg, #D23724, #9A3B7E);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: grey;
 }
 
-.form {
+#gameCanvas {
+    background-color: black;
+}
 
+#startContainer {
+    background-color: #00ffff;
+    position:fixed;
+    height: 200px;
+    width: 400px;
     display: flex;
+    align-items: center;
     justify-content: center;
 }
 
-#s {
-    height: 10vh;
-    width: 50vw;
-    text-align: center;
-    font-size: 6vh;
-}
-
-
-.result {
+#startMenu {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    padding: 10vh 0 0 0;
 }
 
+#gameOverContainer {
+    background-color: #00ffff;
+    position:fixed;
+    height: 200px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#gameOverMenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#winnerContainer {
+    background-color: #00ffff;
+    position:fixed;
+    height: 200px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#winnerMenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#pauseButtonContainer {
+    padding: 20px;
+}
