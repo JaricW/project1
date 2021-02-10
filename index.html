@@ -21,7 +21,7 @@
         </div>
     </div>
 
-    <div id="gameOverContainer">
+    <div id="gameOverContainer" style="display: none">
         <div id="gameOverMenu">
             <h1>Game Over</h1>
             <button value="play" onclick="retry()">Retry</button>
@@ -29,18 +29,16 @@
         </div>
     </div>
 
-    <div id="winnerContainer">
+    <div id="winnerContainer" style="display: none">
         <div id="winnerMenu">
             <h1>You Win!</h1>
             <h2>You're a true Space Pirate</h2>
         </div>
     </div>
-    <div id="pauseButtonContainer">
-    <button onclick="pausing()">Pause</button >
+    <div id="pauseButtonContainer" style="display: none">
+        <button onclick="pausing()">Pause</button>
     </div>
     <script>
-        winnerContainer.style.display = "none"
-        gameOverContainer.style.display = "none"
         function start() {
             animate()
             startContainer.style.display = "none"
