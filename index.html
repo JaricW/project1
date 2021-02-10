@@ -1,38 +1,60 @@
 <!DOCTYPE html>
-<!-- file links here -->
-<link rel="stylesheet" href="styles.css">
+
+<link rel="stylesheet" type="text/css" href="style.css" />
+
 
 <html>
 
-<section id="totalPage" class="totalPage">
- 
- <div class="home">
-  <a href="https://jaricw.github.io/"
-  <p>Home</p>
- </a>
- </div>
-  
- <div class="explain">
-  <h1>Type a word or phrase below <br>and see it reverse!</h1>
- </div>
- 
- <div class="form">
-  <input type = "text" id = "s" size = "50" maxlength = "20">
-  <input type = "button" id = "r" value = "Reverse" size = "30"
-   onclick="document.getElementById('t').innerHTML = document.getElementById('s').value.reverse();">
- </div>
- 
- <div class="result">
-  <h2 id = "t"></h2>
- </div>
 
-</section>
+<head>
+</head>
+
+<body>
+    <canvas id="gameCanvas" height="400px" width="400px"> </canvas>
+    <script type="text/javascript" src="index.js"></script>
+
+    <div id="startContainer">
+        <div id="startMenu">
+            <h1>Space Pirates</h1>
+            <p>Use the arrow keys to move and space to fire!</p>
+            <button value="play" onclick="start()">Play</button>
+        </div>
+    </div>
+
+    <div id="gameOverContainer">
+        <div id="gameOverMenu">
+            <h1>Game Over</h1>
+            <button value="play" onclick="retry()">Retry</button>
+            <h2>Try again!</h2>
+        </div>
+    </div>
+
+    <div id="winnerContainer">
+        <div id="winnerMenu">
+            <h1>You Win!</h1>
+            <h2>You're a true Space Pirate</h2>
+        </div>
+    </div>
+    <div id="pauseButtonContainer">
+    <button onclick="pausing()">Pause</button >
+    </div>
+    <script>
+        winnerContainer.style.display = "none"
+        gameOverContainer.style.display = "none"
+        function start() {
+            animate()
+            startContainer.style.display = "none"
+        }
+
+        function retry() {
+            location.reload();
+        }
+
+        function pausing() {
+            pauseGame()
+        }
+    </script>
+</body>
+
 
 </html>
-
-<script>
-String.prototype.reverse=function(){
-return this.split("").reverse().join("");
-}
-</script>
-
